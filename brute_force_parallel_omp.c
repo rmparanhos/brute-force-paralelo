@@ -127,7 +127,7 @@ int main() {
 	int *distribuicao = (int *) malloc(sizeof(int) * n_threads);
 	distribuicao = distribui(n_threads);
 
-	// Cria o array de posicoes de lim_sup
+	// Cria o array de posicoes de lim_inf
 	char *senha = NULL; 
 	int posicoes[n_threads];
 	int soma = 0;
